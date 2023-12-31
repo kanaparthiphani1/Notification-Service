@@ -13,11 +13,5 @@ app.use("/api", apiRoutes);
 
 app.listen(ServerConfig.PORT, async () => {
   connectQueue();
-  //   await EmailService.sendEmail(
-  //     "kanaparthiphani58@gmail.com",
-  //     "kanaparthiphani143@gmail.com",
-  //     "SUbject is this",
-  //     "HI i am mail"
-  //   );
   console.log(`Successfully started the server on PORT : ${ServerConfig.PORT}`);
 });
